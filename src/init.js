@@ -31,7 +31,7 @@ $(document).ready(function() {
       $("body").width() * Math.random(),
       Math.random() * 1000
     );
-    console.log(dancer);
+    // `console.log(dancer);`
     $('body').append(dancer.$node);
   });
 });
